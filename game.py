@@ -1,6 +1,5 @@
 import random
 
-
 def is_it_right(game,num):
     result = game['secret_name'][len(game['display_num'])] == num
     if result:
